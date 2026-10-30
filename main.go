@@ -101,6 +101,6 @@ func main() {
 		log.Fatal("PORT must be an integer between 0 and 65535")
 	}
 
-	log.Printf("Serving on port: %s\n", portNumber)
+	log.Printf("Serving on port: %d\n", portNumber)
 	log.Fatal(srv.ListenAndServe())
 }
