@@ -8,10 +8,10 @@ import (
 
 func TestGetAPIKey(t *testing.T) {
 	tests := []struct {
-		name      string
-		auth      string
-		wantKey   string
-		wantErr   bool
+		name       string
+		auth       string
+		wantKey    string
+		wantErr    bool
 		wantNoAuth bool
 	}{
 		{
